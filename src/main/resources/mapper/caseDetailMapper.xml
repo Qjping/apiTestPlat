@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="apiTestPlat.dataobject.mapper.CaseDetailMapper" >
+
+    <resultMap id="BaseResultMap" type="apiTestPlat.dataobject.vo1.CaseDetailVO">
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <id column="url" property="url" jdbcType="VARCHAR" />
+        <id column="path" property="path" jdbcType="VARCHAR" />
+        <id column="header" property="header" jdbcType="VARCHAR" />
+        <id column="method" property="method" jdbcType="VARCHAR" />
+        <id column="data" property="data" jdbcType="VARCHAR" />
+        <id column="assertions" property="assertions" jdbcType="VARCHAR" />
+        <id column="extract" property="extract" jdbcType="VARCHAR" />
+        <id column="description" property="description" jdbcType="VARCHAR" />
+        <id column="group_id" property="group_id" jdbcType="INTEGER" />
+        <id column="sort" property="sort" jdbcType="VARCHAR" />
+        <id column="delete_flag" property="deleteFlag" jdbcType="VARCHAR" />
+        <id column="record_date" property="recordDate" jdbcType="VARCHAR" />
+        <id column="created_at" property="createdAt" jdbcType="VARCHAR" />
+        <id column="created_by" property="createdBy" jdbcType="VARCHAR" />
+        <id column="updated_at" property="updatedAt" jdbcType="VARCHAR" />
+        <id column="updated_by" property="updatedBy" jdbcType="VARCHAR" />
+
+    </resultMap>
+
+    <select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select *
+        from case_detail
+        where id = #{id, jdbcType=INTEGER}
+    </select>
+
+    <insert id="save">
+    insert INTO case_detail
+    (url,path,header,method,data,assertions,extract,description,sort,delete_flag,record_date,created_at,created_by,updated_at,updated_by)
+    VALUES
+
+    <foreach collection="list" index="index" item="item" separator=",">
+        (#{item.url},#{item.path},#{item.header},#{item.method},#{item.data},#{item.assertions},#{item.extract},
+        #{item.description},#{item.sort},1,NOW(),#{item.createdAt},#{item.createdBy},#{item.updatedAt},#{item.updatedBy})
+    </foreach>
+
+<!--    &lt;!&ndash;存在即可修改下述字段的数据，注意values()中的内容是数据表中相应的字段名&ndash;&gt;-->
+
+<!--    ON DUPLICATE KEY UPDATE-->
+
+<!--    url = VALUES(item.url)-->
+
+</insert>
+</mapper>
