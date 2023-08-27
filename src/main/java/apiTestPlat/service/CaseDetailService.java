@@ -6,13 +6,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class CaseDetailService {
 
 
-    public static List<AbstractHandler> abstractHandler = new ArrayList<>();
+    public static Map<Integer,List<AbstractHandler>> abstractHandlersMap = new HashMap<>();
 
     @Autowired
     AssertHandler assertHandler;
@@ -27,17 +29,20 @@ public class CaseDetailService {
 
 
     public void excute(CaseDetailVO caseDetailVO){
-        abstractHandler.forEach(abstractHandler1 -> {
-            assertHandler.excute();
+        abstractHandlersMap.get(1).forEach(abstractHandler1 -> {
+            assertHandler.excute(caseDetailVO);
         });
     }
 
 
     public  void setHandler(){
+        List<AbstractHandler> abstractHandler = new ArrayList<>();
+        //api自动化
         abstractHandler.add(prepareHandler);
         abstractHandler.add(requestHandler);
         abstractHandler.add(extractHandler);
         abstractHandler.add(assertHandler);
+        abstractHandlersMap.put(1,abstractHandler);
 
     }
 }

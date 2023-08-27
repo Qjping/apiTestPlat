@@ -1,0 +1,25 @@
+Starting ApiTestPlat using Java 1.8.0_372 on qjp with PID 15352 (D:\JAVAWORK\apiTestPlat\target\classes started by 86156 in D:\JAVAWORK\apiTestPlat)
+No active profile set, falling back to default profiles: default
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.43]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1462 ms
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'caseDetailService': Unsatisfied dependency expressed through field 'assertHandler'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'apiTestPlat.Handler.AssertHandler' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting ApiTestPlat using Java 1.8.0_372 on qjp with PID 8940 (D:\JAVAWORK\apiTestPlat\target\classes started by 86156 in D:\JAVAWORK\apiTestPlat)
+No active profile set, falling back to default profiles: default
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.43]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 928 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started ApiTestPlat in 2.022 seconds (JVM running for 2.276)

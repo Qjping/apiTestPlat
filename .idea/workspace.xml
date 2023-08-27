@@ -5,67 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27a19d05-e466-4215-95a8-7eb466652090" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/dto/AssertResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/dto/ExtractResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/dto/PageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/ApiResultIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/AssertResultIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/BaseMqIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseDetailAddIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseDetailIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseGroupIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseGroupQueryIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseQueryIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseReportIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseResultIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/CaseResultQueryIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/LoginQueryIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/LoginUserIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/PageReceiveIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/PageResultIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/RestApiResultIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/UserIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/extractResultIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/ido/fixed/UserToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/mapper/CaseDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/AssertResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseDetailAddVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseDetailVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseGroupQueryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseGroupVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseQueryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseResultQueryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/ConfigVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/ExtractResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/LoginQueryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/PageReceiveIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/PageReceiveVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/PageResultIDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/PageResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/UserAccountVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/UserDefineParamVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo11/AccountVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo11/DefineParamVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/caseDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/migration/V1.0.0.0.0__20210207_base_v0_0_0_0_target_v1_0_0_0_scheme.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/migration/script/V1.0.0.0.2__201229_base_v0_0_0_0_target_v1_0_0_0_script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestPlat/apiTestPlatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTestPlat/dataobject/mapper/apiTestPlatTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/AbstractHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/AbstractHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/AssertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/AssertHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/ExtractHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/ExtractHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/PrepareHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/PrepareHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/Handler/RequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseResultVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/dataobject/vo1/CaseResultVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiTestPlat/service/CaseDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiTestPlat/service/CaseDetailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TestNG Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -99,27 +48,31 @@
     "ToolWindowRun.ShowToolbar": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "last_opened_file_path": "D:/JAVAWORK/apiTestPlat/src/main/resources",
+    "last_opened_file_path": "D:/JAVAWORK/apiTestPlat/src/main/java/apiTestPlat",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVAWORK\apiTestPlat\src\main\resources" />
       <recent name="D:\JAVAWORK\apiTestPlat\src\main\java\apiTestPlat" />
+      <recent name="D:\JAVAWORK\apiTestPlat\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="apiTestPlat" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="apiTestPlat.dataobject.mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="apiTestPlat" />
       <recent name="apiTestPlat.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.apiTestPlatTest.testSelectById">
+  <component name="RunManager" selected="Application.apiTestPlat.ApiTestPlat">
     <configuration name="apiTestPlat.ApiTestPlat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="apiTestPlat.ApiTestPlat" />
       <module name="apiTestPlat" />
@@ -205,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.apiTestPlat.ApiTestPlat" />
         <item itemvalue="TestNG.apiTestPlatTest.testSelectById" />
         <item itemvalue="TestNG.caseDetailMapperTest.testSelectById" />
         <item itemvalue="TestNG.apiTestPlatTest" />
         <item itemvalue="TestNG.caseDetailMapperTest" />
-        <item itemvalue="Application.apiTestPlat.ApiTestPlat" />
       </list>
     </recent_temporary>
   </component>
